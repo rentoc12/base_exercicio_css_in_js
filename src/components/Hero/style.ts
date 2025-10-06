@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { cores } from '../../style'
 
 export const Formulario = styled.form`
   height: 360px;
@@ -8,6 +9,7 @@ export const Formulario = styled.form`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   &::before {
     position: absolute;
@@ -15,7 +17,7 @@ export const Formulario = styled.form`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--cor-principal);
+    background-color: ${cores.corPrincipal};
     content: '';
     opacity: 0.7;
   }
@@ -23,6 +25,7 @@ export const Formulario = styled.form`
   @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
+    text-align: center;
   }
 `
 export const Title = styled.h2`
