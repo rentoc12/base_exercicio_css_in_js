@@ -31,6 +31,7 @@ export const Formulario = styled.form`
 export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;

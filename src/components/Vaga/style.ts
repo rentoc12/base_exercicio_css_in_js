@@ -12,6 +12,11 @@ export const Lista = styled.li`
   &:hover {
     background-color: ${cores.corPrincipal};
     color: ${cores.corSecundaria};
+
+    &:hover a {
+    border-color: ${cores.corPrincipal};
+    background-color: ${cores.corSecundaria};
+    color: ${cores.corPrincipal};
   }
 `
 

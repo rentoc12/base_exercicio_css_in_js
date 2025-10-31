@@ -1,11 +1,14 @@
+import { Container } from '../../container'
 import * as S from './style'
 
 const Hero = () => (
   <S.Formulario>
     <S.Divisao>
-      <S.Title>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </S.Title>
+      <Container>
+        <S.Title>
+          As melhores vagas para tecnologia, design e artes visuais.
+        </S.Title>
+      </Container>
     </S.Divisao>
   </S.Formulario>
 )
